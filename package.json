@@ -1,0 +1,23 @@
+{
+  "name": "platform-api",
+  "version": "1.0.0",
+  "description": "Guide to wit.ai's platform api",
+  "main": "index.js",
+  "repository": "https://github.com/stopachka/platform-api",
+  "author": "wit.ai <team@wit.ai>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "firebase": "^4.10.1",
+    "firebase-admin": "^5.9.1",
+    "node-fetch": "^1.7.3",
+    "body-parser": "^1.18.2",
+    "request": "2.83.0"
+  },
+  "engines": {
+    "node": ">=7.5.0"
+  },
+  "scripts": {
+  "start": "node index.js"
+  }
+}
